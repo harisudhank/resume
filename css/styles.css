@@ -860,8 +860,8 @@ body {
   }
 
   .hero {
-    min-height: calc(100vh - 6rem);
-    min-height: calc(100svh - 6rem);
+    min-height: calc(100vh - 4.5rem);
+    min-height: calc(100svh - 4.5rem);
     align-items: center;
     padding: 3rem 1.5rem 4rem;
     background: #f3f2f3;
@@ -871,7 +871,7 @@ body {
     width: 100%;
     max-width: 32rem;
     margin: 0 auto;
-    translate: 0 -7.25rem;
+    translate: 0 -10rem;
   }
 
   .hero__video {
@@ -881,10 +881,6 @@ body {
     object-position: center 70%;
     filter: none;
     box-shadow: none;
-  }
-
-  .hero__title {
-    display: none;
   }
 
   .hero.is-syncing .reveal {
