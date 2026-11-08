@@ -877,8 +877,8 @@ body {
   .hero__video {
     display: block;
     background: #f3f2f3;
-    object-fit: contain;
-    object-position: center bottom;
+    object-fit: cover;
+    object-position: center 70%;
     filter: none;
     box-shadow: none;
   }
@@ -976,7 +976,7 @@ body {
     padding: 1.25rem 1rem;
     border-radius: 1.25rem;
     background-size: auto 14.5rem;
-    background-position: left top;
+    background-position: 0.5rem 0.25rem;
   }
 
   .contact__content {
